@@ -1,6 +1,6 @@
 {
   "name": "@lnkkerst/rehype-pre-language",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Rehype plugin to inject language type into the pre element.",
   "type": "module",
   "main": "./dist/index.js",
