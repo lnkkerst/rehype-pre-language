@@ -1,6 +1,6 @@
 {
   "name": "@lnkkerst/rehype-pre-language",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rehype plugin to inject language type into the pre element.",
   "type": "module",
   "main": "./dist/index.js",
@@ -12,9 +12,17 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "keywords": [],
-  "author": "lnkkerst <lnkkerst04@gmail.com>",
+  "files": ["dist/"],
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "unified",
+    "html",
+    "language"
+  ],
+  "author": "lnkkerst <lnkkerst04@gmail.com> (https://lnkkerst.me)",
   "license": "MIT",
+  "repository": "https://github.com/lnkkerst/rehype-pre-language",
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "prepublishOnly": "pnpm run build"
